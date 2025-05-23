@@ -1,0 +1,28 @@
+# Archivos de configuración sensibles
+*.key
+*.pem
+*.crt
+config/database.conf
+config/ssl/
+
+# Logs
+*.log
+logs/
+apache2/logs/
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# Directorios de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Variables de entorno
+.env
+.env.local
